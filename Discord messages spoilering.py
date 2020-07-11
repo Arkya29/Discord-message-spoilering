@@ -1,6 +1,7 @@
 # -*-coding:Latin-1 -*
 print("/!\ VERSION BETA : le programme ne prend pas en charge les sauts de ligne /!\ ")
 message = input("Dans quel message voulez-vous ajouter des spoilers entre chaque lettre ?")  # On demande le message à traiter.
+print("Voici votre message à copier-coller :")
 message = str(message)  # Pour qu'il n'y ai pas de problème avec les chiffres, on assure la conversion en texte.
 nombreDeCaractere = len(message)  # On regarde combien il y a de caratères.
 caractere = 0
